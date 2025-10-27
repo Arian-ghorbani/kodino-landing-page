@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کدینو</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!-- AOS.js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Swiper Style Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+    <!-- Local Style Link -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+
+      <div class="container relative flex items-center justify-center">
+
+        <!-- Navbar -->
+        <nav id="navbar">
+
+          <div class="right-div">
+
+            <!-- Hamburger Menu -->
+            <button id="menu-burger-btn" class="size-6 z-50 sm:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 0 25 25" fill="none" class="menu-icon">
+                <path d="M2 12.32H22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 18.32H22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 6.32001H22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+
+            <!-- Logo -->
+            <h2 class="logo font-dana-demibold text-lg z-50 xl:text-xl">
+              <a href="#">کدینو</a>
+            </h2>
+
+          </div>
+
+          <div class="center-div">
+
+            <!-- Links -->
+            <ul class="hidden sm:flex items-center gap-x-6 xl:gap-x-8">
+              <li class="nav-link active"><a href="#">خانه</a></li>
+              <li class="nav-link"><a href="#">نمونه‌کارها</a></li>
+              <li class="nav-link"><a href="#">ارتباط با ما</a></li>
+            </ul>
+
+          </div>
+
+          <div class="left-div">
+
+            <!-- Blog Link -->
+            <a class="blog-link hidden sm:flex">وبلاگ</a>
+
+          </div>
+
+        </nav>
+
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="close">
+
+        <nav class="side-navbar">
+
+          <ul class="flex flex-col items-center gap-y-10">
+            <li class="side-nav-link active"><a href="#">خانه</a></li>
+            <li class="side-nav-link"><a href="#">نمونه‌کارها</a></li>
+            <li class="side-nav-link"><a href="#">ارتباط با ما</a></li>
+          </ul>
+
+        </nav>
+
+      </div>
+
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+
+      <!-- Hero Section -->
+      <section id="hero-section">
+
+          <div class="absolute inset-0 -z-10 bg-radial-[80%_70%_at_50%_-20%] from-primary/50 to-transparent"></div>
+           
+          <svg class="absolute inset-0 -z-10 size-full stroke-white/5 mask-radial-[100%_75%] mask-radial-from-0% mask-radial-at-top" aria-hidden="true">
+            <defs>
+              <pattern id="hero" width="80" height="80" x="50%" y="-1" patternUnits="userSpaceOnUse">
+                <path d="M.5 200V.5H200" fill="none"></path>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" stroke-width="0" fill="url(#hero)"></rect>
+          </svg>
+        
+          <div class="container">
+
+            <div class="hero-section-content">
+
+              <!-- Title -->
+              <h1 data-aos="zoom-out" class="hero-section-title">ما فقط سایت نمی‌سازیم <br><span>تجربه خلق</span> می‌کنیم</h1>
+          
+              <!-- Description -->
+              <p data-aos="zoom-in" data-aos-delay="100" class="hero-section-description">
+              تیم ما با طراحی‌های مدرن و چشم‌نواز در کنارته.
+              سایت‌هایی سریع، سئو محور و کاملاً بهینه می‌سازیم
+              تا برندت خاص دیده بشه و کاربران عاشقش بشن.
+              </p>
+          
+              <!-- Links & Buttons -->
+              <div class="links-wrapper" data-aos="fade-up" data-aos-delay="200">
+            
+                <!-- Get Strated Link -->
+                <a href="#" class="get-started">شروع همکاری</a>
+            
+                <!-- Show More Button -->
+                <a href="#services" class="learn-more-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="size-4.5 stroke-gray-400 lg:size-5">
+                    <path d="M11.9297 2V22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19 16L14 21.1599C13.7437 21.4336 13.434 21.6519 13.0899 21.801C12.7459 21.9502 12.375 22.0271 12 22.0271C11.625 22.0271 11.2541 21.9502 10.9101 21.801C10.566 21.6519 10.2563 21.4336 10 21.1599L5 16" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+
+        <div class="container">
+
+            <!-- Title Of Services -->
+            <div class="services--content">
+
+              <h2 data-aos="fade-up" class="services--title">
+              خدمات ما برای رشد برند شما
+              </h2>
+
+              <p data-aos="fade-up" data-aos-delay="100" class="services--description">
+              ما مجموعه‌ای از خدمات طراحی، توسعه و برندینگ دیجیتال ارائه می‌دیم تا حضور آنلاین برندتون، متفاوت و حرفه‌ای باشه.
+              </p>
+
+            </div>
+
+            <div class="cards-wrapper">
+
+              <!-- Custom Website Design -->
+              <div data-aos="fade-up" data-aos-delay="100" class="service-card">
+
+                <div class="img-card">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <path d="M20.1498 7.93997L8.27978 19.81C7.21978 20.88 4.04977 21.3699 3.32977 20.6599C2.60977 19.9499 3.11978 16.78 4.17978 15.71L16.0498 3.84C16.5979 3.31801 17.3283 3.03097 18.0851 3.04019C18.842 3.04942 19.5652 3.35418 20.1004 3.88938C20.6356 4.42457 20.9403 5.14781 20.9496 5.90463C20.9588 6.66146 20.6718 7.39189 20.1498 7.93997V7.93997Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+
+                <div class="content-card">
+
+                  <h3 class="title-card">
+                  طراحی وب‌سایت سفارشی
+                  </h3>
+
+                  <p class="description-card">
+                  از طراحی ظاهری تا تجربه کاربری، وب‌سایتی می‌سازیم که دقیقاً با هویت برند شما هم‌خوانی داره.
+                  </p>
+
+                </div>
+
+              </div>
+
+              <!-- Online Store -->
+              <div data-aos="fade-up" data-aos-delay="200" class="service-card">
+
+                <div class="img-card">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 0 25 25" fill="none">
+                    <path d="M18.5996 21.57C19.7042 21.57 20.5996 20.6746 20.5996 19.57C20.5996 18.4654 19.7042 17.57 18.5996 17.57C17.495 17.57 16.5996 18.4654 16.5996 19.57C16.5996 20.6746 17.495 21.57 18.5996 21.57Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.59961 21.57C9.70418 21.57 10.5996 20.6746 10.5996 19.57C10.5996 18.4654 9.70418 17.57 8.59961 17.57C7.49504 17.57 6.59961 18.4654 6.59961 19.57C6.59961 20.6746 7.49504 21.57 8.59961 21.57Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 3.55997C2 3.55997 6.64 3.49997 6 7.55997L5.31006 11.62C5.20774 12.1068 5.21778 12.6105 5.33954 13.0929C5.46129 13.5752 5.69152 14.0234 6.01263 14.4034C6.33375 14.7833 6.73733 15.0849 7.19263 15.2854C7.64793 15.4858 8.14294 15.5797 8.64001 15.56H16.64C17.7479 15.5271 18.8119 15.1196 19.6583 14.404C20.5046 13.6884 21.0834 12.7069 21.3 11.62L21.9901 7.50998C22.0993 7.0177 22.0939 6.50689 21.9744 6.017C21.8548 5.52712 21.6242 5.07126 21.3005 4.68467C20.9767 4.29807 20.5684 3.99107 20.1071 3.78739C19.6458 3.58371 19.1438 3.48881 18.64 3.50998H9.94" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+
+                <div class="content-card">
+
+                  <h3 class="title-card">
+                  فروشگاه اینترنتی
+                  </h3>
+
+                  <p class="description-card">
+                  طراحی فروشگاه‌های زیبا و سریع با پرداخت آنلاین و پنل مدیریت ساده.
+                  </p>
+                
+                </div>
+
+              </div>
+
+              <!-- SEO and Speed Optimization -->
+              <div data-aos="fade-up" data-aos-delay="300" class="service-card">
+
+                <div class="img-card">
+                  <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path d="M21.5,6h-6c-.276,0-.5,.224-.5,.5s.224,.5,.5,.5h6c.231,0,.451,.053,.646,.147L13.441,15.852c-.244,.244-.639,.244-.883,0l-4.359-4.359c-.662-.662-1.736-.662-2.398,0L.146,17.146c-.195,.195-.195,.512,0,.707,.098,.098,.226,.146,.354,.146s.256-.049,.354-.146l5.654-5.654c.264-.262,.721-.262,.984,0l4.359,4.359c.613,.613,1.684,.613,2.297,0L22.853,7.854c.094,.196,.147,.415,.147,.646v6c0,.276,.224,.5,.5,.5s.5-.224,.5-.5v-6c0-1.379-1.121-2.5-2.5-2.5Z"/>
+                  </svg>
+                </div>
+
+                <div class="content-card">
+
+                  <h3 class="title-card">
+                  سئو و بهینه‌سازی سرعت
+                  </h3>
+
+                  <p class="description-card">
+                  افزایش دیده‌شدن سایت در گوگل و بهبود عملکرد برای تجربه کاربری بهتر.
+                  </p>
+                
+                </div>
+
+              </div>
+
+              <!-- Support and Updates -->
+              <div data-aos="fade-up" data-aos-delay="400" class="service-card lg:col-span-3 xl:col-span-1">
+
+                <div class="img-card">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.5 0 25 25" fill="none">
+                    <path d="M7.1998 10.8799L3.9998 14.0799L0.799805 10.8799" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17.72 6.77007C16.6086 5.63347 15.1839 4.85371 13.6275 4.53032C12.0711 4.20693 10.4536 4.35459 8.98145 4.95439C7.5093 5.5542 6.24924 6.57899 5.362 7.898C4.47476 9.21701 4.0006 10.7703 4 12.3599V14.0901" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.7998 13.96L19.9998 10.75L23.1998 13.96" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.28027 18.0801C7.39163 19.2167 8.8164 19.9962 10.3728 20.3196C11.9292 20.643 13.5467 20.4956 15.0188 19.8958C16.491 19.2959 17.751 18.2712 18.6383 16.9521C19.5255 15.6331 19.9997 14.0796 20.0003 12.49V10.76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+
+                <div class="content-card">
+
+                  <h3 class="title-card">
+                  پشتیبانی و به‌روزرسانی
+                  </h3>
+
+                  <p class="description-card">
+                  ما بعد از تحویل پروژه هم کنار شما هستیم تا وب‌سایت همیشه بروز و ایمن بمونه.
+                  </p>
+                
+                </div>
+                
+              </div>
+
+            </div>
+
+        </div>
+
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio">
+
+        <div class="container">
+
+          <div class="portfolio--content">
+
+            <!-- Title Of Portfolio -->
+            <h2 data-aos="fade-up" class="portfolio--title">
+              نمونه‌کارهای ما
+            </h2>
+
+            <!-- Description Of Portfolio -->
+             <p data-aos="fade-up" class="portfolio--description">
+              ما باور داریم طراحی خوب فقط زیبا نیست؛ باید هدفمند باشه. اینجا چند پروژه از کارهای که با عشق و دقت ساخته‌ایم رو می‌تونی ببینی.
+             </p>
+
+          </div>
+
+          <div class="swiper portfolio-slider w-full h-auto px-4! pb-8! sm:px-8!">
+
+            <!-- Protfolio Cards -->
+            <div class="swiper-wrapper portfolio-cards-wrapper">
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project1.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project2.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project3.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project4.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project5.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+              <div class="swiper-slide portfolio-card">
+
+                <div class="img-wrapper">
+                  <img src="./assets/images/projects/project6.webp" alt="image" class="card-img">
+                </div>
+
+                <div class="card-content">
+                  <p class="website-logo">لوگو وب‌سایت</p>
+                  <a href="#" class="show-link">مشاهده</a>
+                </div>   
+
+              </div>
+
+            </div>
+
+            <!-- Pagination Of Slider -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Next & Prev Btn Of Slider -->
+            <div class="swiper-button-prev right-0!">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="swiper-button-next left-0!">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Team -->
+      <section id="team">
+
+        <div class="container">
+
+          <div class="team--content">
+
+            <!-- Title Of Team Section -->
+            <h2 data-aos="fade-up" class="team--title">تیم خلاق ما</h2>
+
+            <!-- Description Of Team Section -->
+            <p data-aos="fade-up" class="team--description">ما گروهی از طراحان، برنامه‌نویسان و استراتژیست‌های دیجیتال هستیم که با عشق به جزئیات، هر پروژه رو به یک اثر خاص تبدیل می‌کنیم.</p>
+
+          </div>
+
+          <!-- Team Cards -->
+          <div class="card-team-wrapper">
+
+            <div data-aos="fade-up" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague2.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">آرین قربانی آهوئی</h4>
+
+                <p class="person-skills">
+                  FrontEnd Develeper, SEO
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague1.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">ستین کرمی</h4>
+
+                <p class="person-skills">
+                  FrontEnd Develeper, Designer
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague3.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">علی جلالی فراهانی</h4>
+
+                <p class="person-skills">
+                  BackEnd Develeper
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague4.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">سبحان قاسمی</h4>
+
+                <p class="person-skills">
+                  SEO
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="400" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague5.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">امیرحسین قربانی آهوئی</h4>
+
+                <p class="person-skills">
+                  FullStack Developer
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="500" class="card-team">
+
+              <div class="card-img-wrapper">
+                <img src="./assets/images/team/colleague6.webp" alt="An Image Of Person" class="card-img">
+              </div>
+
+              <div class="card-team-content">
+
+                <h4 class="person-name">ریحانه شاه‌ویسی</h4>
+
+                <p class="person-skills">
+                  FrontEnd Develeper, SEO, Designer
+                </p>
+
+                <div class="social-media-wrapper">
+
+                  <a href="#" class="person-social-media linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1"">
+                      <title>linkedin [#161]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media github">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" class="social-media-icon">
+                      <path d="M1821.63 637.76c0-130.027-43.627-236.373-116.054-319.68 11.627-30.187 50.347-151.36-11.2-315.307 0 0-94.72-32-310.4 122.134-90.133-26.454-186.773-39.68-282.773-40.107-96 .427-192.64 13.653-282.667 40.107C602.749-29.227 507.923 2.773 507.923 2.773c-61.547 163.947-22.72 285.12-11.094 315.307-72.32 83.307-116.266 189.653-116.266 319.68 0 456.533 263.68 558.72 514.453 588.8 0 0-180.267 111.68-180.267 299.413-64.32 30.507-336.533 123.947-437.333-58.133 0 0-59.627-114.347-173.013-122.773 0 0-110.294-1.494-7.787 72.426 0 0 74.027 36.694 125.44 174.294 0 0 57.173 289.92 489.067 159.68 4.373 2.24 1.6 140.266 1.6 168.533h777.173s1.28-277.013 1.28-365.12c0-216.64-144.64-292.48-185.28-329.28 251.627-29.44 515.733-130.133 515.733-587.84" fill-rule="evenodd"/>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="person-social-media instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                      <title>instagram [#167]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <!-- Comments -->
+      <section id="comments">
+
+        <div class="container">
+
+          <div class="comments--content">
+
+            <!-- Title Of Comments Section -->
+            <h2 data-aos="fade-up" class="comments--title">نظرات مشتریان</h2>
+
+            <!-- Description Of Comments Section -->
+            <p data-aos="fade-up" class="comments--description">هر پروژه برای ما فقط یه قرارداد نیست، یه همکاری صمیمیه. افتخار می‌کنیم که مشتریان با لبخند از تجربه‌شون با ما حرف می‌زنن.</p>
+
+          </div>
+
+          <div class="swiper comment-slider w-full! pb-8! sm:px-8!">
+            
+            <!-- Comments Slider -->
+            <div class="swiper-wrapper comment-wrapper">
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer1.webp" alt="Customer Image" class="customer-img">
+                </div>
+
+                <div class="comment-content">
+                  <p class="customer-name">مریم کاظمی</p>
+                  <p class="comment-text">واقعاً فکر نمی‌کردم یک تیم بتونه تا این حد منظم، خلاق و خوش‌برخورد باشه. از طراحی گرفته تا پشتیبانی، همه چیز دقیق و حرفه‌ای انجام شد.</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer2.webp" alt="Customer Image" class="customer-img">
+                </div>
+
+                <div class="comment-content">
+                  <p class="customer-name">امیرحسین فلاح</p>
+                  <p class="comment-text">تیمشون فقط سایت نساخت، یه تجربه‌ی واقعی از برند ما خلق کرد. طراحی دقیق، UX عالی و پشتیبانی ۲۴ ساعته‌شون باعث شد خیلی راحت پیش بریم.</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer3.webp" alt="Customer Image" class="customer-img">
+                </div>
+
+                <div class="comment-content">
+                  <p class="customer-name">کامران فدایی</p>
+                  <p class="comment-text">ارتباط باهاشون فوق‌العاده بود. هر مرحله گزارش، مشورت و بازخورد می‌گرفتم. پروژه دقیقاً طبق زمان‌بندی و با کیفیت بالا تحویل داده شد.</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer4.webp" alt="Customer Image" class="customer-img">
+                </div>
+              
+                <div class="comment-content">
+                  <p class="customer-name">کاظم صادقی</p>
+                  <p class="comment-text">بعد از تحویل پروژه هم رها نکردنم! هر سؤال یا تغییر کوچیکی داشتم سریع جواب دادن. واقعاً حس امنیت و اعتماد دارم.</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer5.webp" alt="Customer Image" class="customer-img">
+                </div>
+
+                <div class="comment-content">
+                  <p class="customer-name">سعید میرزایی</p>
+                  <p class="comment-text">از همون جلسه‌ی اول حس کردم با یه تیم خلاق طرفم. هر ایده‌ای که داشتم با صبر و دقت شنیدن و بهترش کردن.</p>
+                </div>
+
+              </div>
+
+              <div class="swiper-slide comment">
+
+                <div class="customer-img-container">
+                  <img src="./assets/images/customer/customer6.webp" alt="Customer Image" class="customer-img">
+                </div>
+
+                <div class="comment-content">
+                  <p class="customer-name">فاطمه رضایی</p>
+                  <p class="comment-text">چیزی که برای من خاص بود، طرز فکر تیمشون بود. هدف فقط ساخت سایت نبود، بلکه کمک به رشد کسب‌وکارم بود.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Pagination Of Slider -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Next & Prev Btn Of Slider -->
+            <div class="swiper-button-prev right-0!">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="swiper-button-next left-0!">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- CTA -->
+      <section id="cta">
+
+        <div class="container">
+
+          <div class="cta--content">
+
+            <!-- Ttile Of CTA Section -->
+            <h2 data-aos="fade-up" class="cta--title">یه گفت‌وگوی کوتاه می‌تونه شروع یه همکاری عالی باشه</h2>
+
+            <!-- Description Of CTA Section -->
+            <p data-aos="fade-up" class="cta--description">ما آماده‌ایم تا با ایده‌ی شما شروع کنیم. کافیه فرم زیر رو پر کنی تا در کم‌تر از ۲۴ ساعت باهات تماس بگیریم.</p>
+
+          </div>
+
+          <!-- Contact Us Form -->
+          <form data-aos="fade-up" action="#" class="cta--form">
+
+            <input class="input-user-name" type="text" placeholder="نام و نام خانوادگی">
+
+            <input class="input-user-phone" type="text" placeholder="شماره تماس">
+
+            <button class="submit-btn">شروع همکاری</button>
+
+          </form>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+
+      <div class="container">
+
+        <section class="footer--head">
+
+          <!-- Logo In The Footer -->
+          <h3 class="footer--logo font-dana-bold text-lg lg:text-xl xl:text-[22px]">کدینو</h3>
+
+          <!-- Social Media In The Footer -->
+          <div class="footer--social-media-wrapper flex items-center gap-x-1">
+
+            <a href="#" class="footer--social-media">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" version="1.1">
+                <title>instagram [#167]</title>
+                <desc>Created with Sketch.</desc>
+                <defs> </defs>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="social-media-icon">
+                  <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+
+            <a href="#" class="footer--social-media">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" class="social-media-icon">
+                <path d="M41.4193 7.30899C41.4193 7.30899 45.3046 5.79399 44.9808 9.47328C44.8729 10.9883 43.9016 16.2908 43.1461 22.0262L40.5559 39.0159C40.5559 39.0159 40.3401 41.5048 38.3974 41.9377C36.4547 42.3705 33.5408 40.4227 33.0011 39.9898C32.5694 39.6652 24.9068 34.7955 22.2086 32.4148C21.4531 31.7655 20.5897 30.4669 22.3165 28.9519L33.6487 18.1305C34.9438 16.8319 36.2389 13.8019 30.8426 17.4812L15.7331 27.7616C15.7331 27.7616 14.0063 28.8437 10.7686 27.8698L3.75342 25.7055C3.75342 25.7055 1.16321 24.0823 5.58815 22.459C16.3807 17.3729 29.6555 12.1786 41.4193 7.30899Z"/>
+              </svg>
+            </a>
+
+          </div>
+
+        </section>
+
+        <section class="footer--main">
+
+          <!-- Quick Access To Links -->
+          <div class="group-link">
+
+            <h4 class="title-link">دسترسی سریع</h4>
+
+            <ul class="links-wrapper">
+              <li><a href="#" class="footer-link">نمونه‌کارها</a></li>
+              <li><a href="#" class="footer-link">وبلاگ</a></li>
+              <li><a href="#" class="footer-link">نظرات مشتریان</a></li>
+            </ul>
+
+          </div>
+
+          <div class="group-link">
+
+            <h4 class="title-link">ارتباط با ما</h4>
+
+            <ul class="links-wrapper">
+              <li><a href="#" class="footer-link">درباره ما</a></li>
+              <li><a href="#" class="footer-link">ارتباط با ما</a></li>
+              <li><a href="#" class="footer-link">شرایط همکاری</a></li>
+            </ul>
+
+          </div>
+
+        </section>
+
+        <!-- Copy Right Text -->
+        <section class="copy-right-wrapper w-full flex items-center justify-center pt-4 pb-2">
+          <p class="copy-right text-description">ساخته‌شده با 💙 توسط تیم کدینو.</p>
+        </section>
+
+      </div>
+
+    </footer>
+
+    <!-- AOS.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+
+    <!-- Swiper JS Online Link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
