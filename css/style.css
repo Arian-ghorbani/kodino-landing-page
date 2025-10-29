@@ -12,10 +12,6 @@
   font-family: "Dana-Bold";
   src: url("../assets/fonts/dana/Dana-Bold.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("../assets/fonts/poppins/PoppinsLatin-Bold.ttf") format("truetype");
-}
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -46,8 +42,8 @@
     --radius-lg: 0.5rem;
     --radius-xl: 0.75rem;
     --radius-3xl: 1.5rem;
+    --blur-xs: 4px;
     --blur-md: 12px;
-    --blur-lg: 16px;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -406,12 +402,6 @@
       column-gap: calc(var(--spacing) * 8);
     }
   }
-  .xl\:text-xl {
-    @media (width >= 80rem) {
-      font-size: var(--text-xl);
-      line-height: var(--tw-leading, var(--text-xl--line-height));
-    }
-  }
   .xl\:text-\[22px\] {
     @media (width >= 80rem) {
       font-size: 22px;
@@ -495,7 +485,7 @@
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
     @media (width >= 48rem) {
-      --tw-backdrop-blur: blur(var(--blur-lg));
+      --tw-backdrop-blur: blur(var(--blur-xs));
       -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
       backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     }
