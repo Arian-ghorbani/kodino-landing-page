@@ -1,5 +1,6 @@
 // Menu Burger
 const menuBurgerBtn = document.querySelector("#menu-burger-btn");
+const linksOfMobileMenu = document.querySelectorAll("#mobile-menu .side-nav-link");
 
 // Open & Close Menu Burger
 const toggleMobileMenu = () => {
@@ -32,6 +33,10 @@ const toggleMobileMenu = () => {
 
   menuBurgerBtn.firstChild.classList.add("menu-icon");
 };
+
+linksOfMobileMenu.forEach((link) => {
+  link.addEventListener("click", toggleMobileMenu);
+});
 
 // Portfolio Slider
 const portfolioSwiper = new Swiper(".portfolio-slider", {
