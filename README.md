@@ -22,6 +22,7 @@ This project was created to enhance and demonstrate front-end development skills
 | **TailwindCSS** |
 | **JavaScript** |
 | **AOS.js** |
+| **Swiper.js** |
 
 ---
 
