@@ -34,7 +34,7 @@ It was built as part of a personal learning and portfolio enhancement project.
 
 ---
 
-## Author
+## 💻 Author
 
 **Arian Ghorbani**  
 Junior Frontend Developer
