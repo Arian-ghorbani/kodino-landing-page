@@ -32,7 +32,7 @@ This landing page represents a **creative and modern web design team**,
 focused on clean UI, high performance, and user-friendly layouts.  
 It was built as part of a personal learning and portfolio enhancement project.
 
-[Demo](https://arian-ghorbani.github.io/kodino-landing-page)
+🔗 [Demo](https://arian-ghorbani.github.io/kodino-landing-page)
 
 ---
 
